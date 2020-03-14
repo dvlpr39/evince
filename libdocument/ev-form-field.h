@@ -113,6 +113,7 @@ struct _EvFormField
 
 	EvPage  *page;
 	gboolean changed;
+	gchar   *tooltip;
 };
 
 struct _EvFormFieldClass
